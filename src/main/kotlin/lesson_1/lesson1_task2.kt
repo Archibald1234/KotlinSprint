@@ -1,6 +1,6 @@
 package org.example.lesson_1
 
-fun main (){
+fun main() {
     var ordersQuantity: Int = 75
     val appreciateText: String = "Thank you for your order!"
 
@@ -11,7 +11,7 @@ fun main (){
 
     //println(employeeQuantity)
 
-    employeeQuantity = 2000-1
+    employeeQuantity = 2000 - 1
 
     println(employeeQuantity)
 }

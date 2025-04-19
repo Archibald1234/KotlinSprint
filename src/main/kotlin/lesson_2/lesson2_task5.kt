@@ -2,10 +2,11 @@ package org.example.lesson_2
 
 import kotlin.math.pow
 
-const val DEPOSIT_PERIOD = 20
-const val FIRST_PAYMENT = 70000
-const val INTEREST_RATE = 16.7
+
 fun main() {
-    var depositPeriodEnd = FIRST_PAYMENT * (1 + INTEREST_RATE / 100).pow(DEPOSIT_PERIOD)
+    val depositPeriod = 20
+    val firstPayment = 70000
+    val interestRate = 16.7
+    var depositPeriodEnd = firstPayment * (1 + interestRate / 100).pow(depositPeriod)
     println("Deposit at the end of period: %.3f".format(depositPeriodEnd))
 }
